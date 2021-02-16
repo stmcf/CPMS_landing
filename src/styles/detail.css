@@ -1,3 +1,40 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1.8fr 1fr 0.2fr;
+	gap: 0px 0px;
+	grid-template-areas:
+	  "CPM cpm-tagline"
+	  "info-wording info-wording"
+	  "company-deets contacts";
+  }
+
+
+  .CPM- { grid-area: CPM-; }
+  .Management-Software { grid-area: cpm-tagline; }
+  
+  .info-wording { grid-area: info-wording; }
+  
+  .company-deets { 
+	  grid-area: company-deets; 
+	  /* width: fit-content; */
+	  position: absolute;
+	  bottom: 3vh;
+	  left: 3vw;
+	  justify-content: left;
+	}
+  
+	
+	
+.contacts { 
+	grid-area: contacts; 
+	width: fit-content;
+	position: absolute;
+	right: 3vw;
+	bottom: 3vh;
+	justify-content: right;
+	}
+
 .name {
 	padding: 2vh 3vw;
 	margin: 0;
@@ -32,3 +69,36 @@
 }
 
 
+.contact-img {
+	height: 4vh;
+	width: 4vh;
+	margin: 0.4vw;
+	fill: #4ABDE1;
+}
+
+.contact-img:hover {
+	fill:#fff;
+}
+.email-us {
+    /* background-color: rgb(74,190,209);
+    color: rgb(52,73,112); */
+    /* padding: 1em 1.5em; */
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-box-shadow:  -1vh 0 0 rgb(74,190,209) inset;
+	-moz-box-shadow:  -1vh 0 0 rgb(74,190,209) inset;
+	box-shadow: 0 -1vh 0 0 rgb(74,190,209) inset;
+	font-weight: bolder;
+}
+
+.email-us:hover {
+    background-color: #555;
+}
+      
+.email-us:active {
+        background-color: #fff;
+}
+      
+/* .email-us:visited {
+        background-color: #ccc;
+} */
