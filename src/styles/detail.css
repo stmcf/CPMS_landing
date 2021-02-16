@@ -1,56 +1,116 @@
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1.8fr 1fr 0.2fr;
+	grid-template-rows: 1.8fr 0.9fr 0.3fr;
+	gap: 20px 20px;
+	grid-template-areas:
+	  "cpm cpm-tagline"
+	  "info-wording info-wording"
+	  "company-deets contacts";
+  }
+  
+  .info-wording {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1.1fr 0.9fr;
 	gap: 0px 0px;
+	grid-template-areas:
+	  "dev-statement"
+	  "email-us";
+	grid-area: info-wording;
+  }
+  
+  .dev-statement { grid-area: dev-statement; }
+  
+  .email-us { grid-area: email-us; }
+  
+  .cpm { grid-area: cpm; }
+  
+  .cpm-tagline { grid-area: cpm-tagline; }
+  
+  .company-deets {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 0px 0px;
+	grid-template-areas:
+	  "address"
+	  "sc-reg";
+	grid-area: company-deets;
+  }
+  
+  .company-deets { 
+	grid-area: company-deets; 
+	/* width: fit-content; */
+	position: absolute;
+	bottom: 3vh;
+	left: 3vw;
+	justify-content: left;
+  }
+
+
+  .address { grid-area: address; 
+text-align: start;}
+  
+  .sc-reg { grid-area: sc-reg;
+text-align: start; }
+  
+  .contacts { grid-area: contacts;
+align-content: flex-end; }
+  
+
+
+
+
+/* 
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 2.1fr 0.7fr 0.2fr;
+	gap: 2em 2em;
 	grid-template-areas:
 	  "CPM cpm-tagline"
 	  "info-wording info-wording"
 	  "company-deets contacts";
-  }
+	justify-items: center;
+  } */
 
 
-  .CPM { 
+  /* .CPM { 
 	grid-area: CPM;
 
 }
   
   .cpm-tagline { 
 	grid-area: cpm-tagline; 
-	justify-items: stretch;
+	
 }
   
   .info-wording {
 	grid-area: info-wording; 
-}
+} */
   
-  .company-deets { 
-	  grid-area: company-deets; 
-	  /* width: fit-content; */
-	  position: absolute;
-	  bottom: 3vh;
-	  left: 3vw;
-	  justify-content: left;
-	}
-  
+ 
 	
 	
 .contacts { 
 	grid-area: contacts; 
 	width: fit-content;
 	position: absolute;
-	right: 3vw;
+	right: 9vw;
 	bottom: 3vh;
 	justify-content: right;
 	}
 
 .name {
-	padding: 2vh 3vw;
+	padding: 3vh 3vw;
 	margin: 0;
 	font-size: 1.75rem;
 	/* letter-spacing: 0.1em; */
 	/* font-weight: 400; */
     /* color: rgb(52, 73, 112) */
+	align-content: space-around;
+	justify-self: center;
 }
 
 .name span {
@@ -68,7 +128,7 @@
 	margin: 0;
 	font-weight: 100;
 	word-wrap: break-word;
-	justify-items: center;
+	justify-self: center;
 }
 
 .blueText {

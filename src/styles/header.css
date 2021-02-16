@@ -15,11 +15,12 @@
     width: 20vw; 
     right: 40vh; 
     margin-bottom: 30px;
+    margin-left: 30px;
 }
 
 .header-contact {
-    padding-top: 50px;
-    padding-right: 30px;
+    padding-top: 120px;
+    padding-right: 9vw;
     position:relative;
 }
 
