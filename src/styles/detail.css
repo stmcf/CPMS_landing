@@ -32,27 +32,3 @@
 }
 
 
-.header {
-    /* margin-top: 30px; */
-    /* position: relative; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: 2px solid #4ABDE1;
-    background-color: #fff;
-}
-
-.cpm-logo {
-    /* margin-top: 30px;    */
-    display: flex;
-    justify-content: flex-start;
-    width: 20vw; 
-    right: 40vh; 
-    margin-bottom: 30px;
-}
-
-.header-contact {
-    padding-top: 50px;
-    padding-right: 30px;
-    position:relative
-}

@@ -1,12 +1,4 @@
-.footer {
-    /* margin-top: 30px; */
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-top: 2px solid #4ABDE1;
-    background-color: #fff;
-}
+
 .contacts {
 	width: fit-content;
 	position: fixed;
@@ -24,4 +16,16 @@
 
 .contact-img:hover {
 	fill:#fff;
+}
+.footer {
+    /* margin-top: 30px; */
+	height: 20px;
+	width: 100%;
+    position: absolute;
+	bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid #4ABDE1;
+    background-color: #fff;
 }
