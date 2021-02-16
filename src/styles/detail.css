@@ -10,10 +10,19 @@
   }
 
 
-  .CPM- { grid-area: CPM-; }
-  .Management-Software { grid-area: cpm-tagline; }
+  .CPM { 
+	grid-area: CPM;
+
+}
   
-  .info-wording { grid-area: info-wording; }
+  .cpm-tagline { 
+	grid-area: cpm-tagline; 
+	justify-items: stretch;
+}
+  
+  .info-wording {
+	grid-area: info-wording; 
+}
   
   .company-deets { 
 	  grid-area: company-deets; 
@@ -54,11 +63,12 @@
 	/* animation-name: fadeInUp; */
 	/* font-family: 'Raleway'; */
 	font-size: 1.25rem;
-	text-align: right;
-	padding: 0 3vw;
+	text-align: left;
+	padding: 3vh 3vw;
 	margin: 0;
 	font-weight: 100;
 	word-wrap: break-word;
+	justify-items: center;
 }
 
 .blueText {
@@ -80,8 +90,8 @@
 	fill:#fff;
 }
 .email-us {
-    /* background-color: rgb(74,190,209);
-    color: rgb(52,73,112); */
+    /* background-color: rgb(74,190,209); */
+    color: #fff;
     /* padding: 1em 1.5em; */
     text-decoration: none;
     text-transform: uppercase;
@@ -97,6 +107,10 @@
       
 .email-us:active {
         background-color: #fff;
+}
+
+a.email-us {
+	color: ;
 }
       
 /* .email-us:visited {

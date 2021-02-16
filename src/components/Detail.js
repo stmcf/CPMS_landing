@@ -17,7 +17,7 @@ function Detail() {
 
 
             <div class="cpm-tagline">
-				<p className="blurb"><span className="blueText">Cost Management Software</span> <br/> for <span className="blueText">SME's</span> <br/> based in Stirling, Scotland.</p>
+				<p className="blurb"><span className="blueText">Cost Management Software</span> <br/> &nbsp;&nbsp;&nbsp;for <span className="blueText">SME's</span> <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;based in Stirling, Scotland.</p>
 			</div>
             
 
