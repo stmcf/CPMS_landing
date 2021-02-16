@@ -31,27 +31,10 @@
 	font-weight: bolder;
 }
 
-.contacts {
-	width: fit-content;
-	position: fixed;
-	left: 50vw;
-	bottom: 3vh;
-    justify-content: center;
-}
-
-.contact-img {
-	height: 4vh;
-	width: 4vh;
-	margin: 0.4vw;
-	fill: #4ABDE1;
-}
-
-.contact-img:hover {
-	fill:#fff;
-}
 
 .header {
     /* margin-top: 30px; */
+    /* position: relative; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -63,9 +46,9 @@
     /* margin-top: 30px;    */
     display: flex;
     justify-content: flex-start;
-    width: 25vw; 
-    right: 50vh; 
-    margin-bottom: 10px;
+    width: 20vw; 
+    right: 40vh; 
+    margin-bottom: 30px;
 }
 
 .header-contact {

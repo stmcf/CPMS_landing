@@ -1,5 +1,6 @@
 import Contact from './Contact.js';
 import Detail from './Detail.js';
+import Footer from './Footer.js';
 import '../styles/main.css'
 
 function Main() {
@@ -8,6 +9,7 @@ function Main() {
         <div>
            <Detail/>
            <Contact/>
+           <Footer/>
         </div>
         </main>
     );

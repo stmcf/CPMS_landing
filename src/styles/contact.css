@@ -10,14 +10,14 @@
 	font-weight: bolder;
 }
 
-a:hover {
+.email-us:hover {
     background-color: #555;
 }
       
-a:active {
-        background-color: black;
+.email-us:active {
+        background-color: #fff;
 }
       
-a:visited {
+/* .email-us:visited {
         background-color: #ccc;
-}
+} */
