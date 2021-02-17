@@ -9,6 +9,7 @@ function Detail() {
             <div className="cpm">
                 <h1 className="name">
                     <span>C</span>PM
+                    <br/>
                     &nbsp;&nbsp;&nbsp;<span>S</span>oftware&nbsp;&nbsp;&nbsp;<span>L</span>imited
                 </h1>
             </div>
@@ -21,10 +22,11 @@ function Detail() {
             <div className="info-wording">
                 <div className="dev-statement"></div>
                     <p>We are developing our site and software from our offices in Stirling,</p>
-                    <p>To stay up to date with our development or if you're a SME and would like to discuss how we can help you please contact us using the form below, or via the following email address;</p>
+                    <br/>
+                    {/* <p>To stay up to date with our development or if you're a SME and would like to discuss how we can help you please contact us using the form below, or via the following email address;</p> */}
                 
                 <div className="email-wording">
-                    <p>We are most active on LinkedIn however if you would like to discuss a project or specific requirements, please <a className='email-us' href="mailto:info@cpm-software.co.uk">Contact us</a></p>
+                    <p>We are most active on <a className="LinkedIn-us" href="http://https://www.linkedin.com/company/cpm-software/" target="_blank" rel="noopener noreferrer">LinkedIn</a>  however if you would like to discuss a project or specific requirements, please <a className='email-us' href="mailto:info@cpm-software.co.uk">Contact us</a></p>
                 </div>
             </div>
             
@@ -51,36 +53,7 @@ function Detail() {
         
         </div>
 
-        <div class="grid-container">
-            <div class="CPM">
-                
-            </div>
-
-
-
-            <div class="cpm-tagline">
-				
-			</div>
-            
-
-
-            <div class="info-wording">
-               
-            </div>
-
-
-            <div class="company-deets">
-               
-            </div>
-            
-            
-            
-            <div class="contacts">
-
-                
-
-            </div>
-        </div>
+        
             </>
     );
 };

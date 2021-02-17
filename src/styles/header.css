@@ -14,20 +14,22 @@
     justify-content: flex-start;
     width: 20vw; 
     right: 40vh; 
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     margin-left: 30px;
+    padding: 3vh;
 }
 
 .header-contact {
     padding-top: 120px;
     padding-right: 9vw;
     position:relative;
+    padding-bottom: 3vh;
 }
 
 .header-email-us {
     /* background-color: rgb(74,190,209); */
     color: rgb(52,73,112);
-    /* padding: 1em 1.5em; */
+    /* padding: 3vh; */
     text-decoration: none;
     text-transform: uppercase;
     -webkit-box-shadow:  -1vh 0 0 rgb(74,190,209) inset;

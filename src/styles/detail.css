@@ -20,13 +20,16 @@
 	grid-area: info-wording;
   }
   
-  .dev-statement { grid-area: dev-statement; }
+  .dev-statement { grid-area: dev-statement; 
+padding-top: 5vh;}
   
   .email-us { grid-area: email-us; }
   
-  .cpm { grid-area: cpm; }
+  .cpm { grid-area: cpm; 
+padding-top: 8vh;}
   
-  .cpm-tagline { grid-area: cpm-tagline; }
+  .cpm-tagline { grid-area: cpm-tagline; 
+	padding-top: 8vh;}
   
   .company-deets {
 	display: grid;
@@ -124,7 +127,7 @@ align-content: flex-end; }
 	/* font-family: 'Raleway'; */
 	font-size: 1.25rem;
 	text-align: left;
-	padding: 3vh 3vw;
+	padding: 5vh 3vw;
 	margin: 0;
 	font-weight: 100;
 	word-wrap: break-word;
@@ -160,6 +163,19 @@ align-content: flex-end; }
 	box-shadow: 0 -1vh 0 0 rgb(74,190,209) inset;
 	font-weight: bolder;
 }
+
+.LinkedIn-us {
+    /* background-color: rgb(74,190,209); */
+    color: #fff;
+    /* padding: 1em 1.5em; */
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    -webkit-box-shadow:  -1vh 0 0 rgb(74,190,209) inset;
+	-moz-box-shadow:  -1vh 0 0 rgb(74,190,209) inset;
+	box-shadow: 0 -1vh 0 0 rgb(74,190,209) inset;
+	font-weight: bolder;
+}
+
 
 .email-us:hover {
     background-color: #555;
