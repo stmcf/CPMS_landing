@@ -12,7 +12,8 @@
     /* margin-top: 30px;    */
     display: flex;
     justify-content: flex-start;
-    width: 20vw; 
+    /* width: 10vw;  */
+    max-height: 20vh;
     right: 40vh; 
     /* margin-bottom: 30px; */
     margin-left: 30px;
@@ -34,6 +35,6 @@
     text-transform: uppercase;
     -webkit-box-shadow:  -1vh 0 0 rgb(74,190,209) inset;
 	-moz-box-shadow:  -1vh 0 0 rgb(74,190,209) inset;
-	box-shadow: 0 -1vh 0 0 rgb(74,190,209) inset;
+	box-shadow: 0 -.5vh 0 0 rgb(74,190,209) inset;
 	font-weight: bolder;
 }
